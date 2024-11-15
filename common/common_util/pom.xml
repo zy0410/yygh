@@ -4,7 +4,7 @@
         <artifactId>common</artifactId>
         <groupId>com.zy.yygh</groupId>
         <version>1.0</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../../common/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -19,6 +19,10 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>easyexcel</artifactId>
+        </dependency>
         <!--easyexcel-->
         <dependency>
             <groupId>com.alibaba</groupId>

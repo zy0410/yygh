@@ -1,6 +1,7 @@
 package com.zy.yygh.vo.order;
 
-import com.siro.yyds.vo.msm.MsmVo;
+
+import com.zy.yygh.vo.msm.MsmVo;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

@@ -6,7 +6,6 @@
         <module>common</module>
         <module>model</module>
         <module>service</module>
-        <module>service/service_user</module>
     </modules>
 
     <parent>
@@ -39,6 +38,12 @@
     <!--配置dependencyManagement锁定依赖的版本-->
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>easyexcel</artifactId>
+                <version>2.1.1</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>

@@ -12,6 +12,7 @@
   <artifactId>common</artifactId>
   <packaging>pom</packaging>
   <description>公共模块父节点</description>
+
   <modules>
     <module>common_util</module>
     <module>service_util</module>

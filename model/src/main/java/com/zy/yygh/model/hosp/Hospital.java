@@ -1,7 +1,8 @@
 package com.zy.yygh.model.hosp;
 
 import com.alibaba.fastjson.JSONObject;
-import com.siro.yyds.model.base.BaseMongoEntity;
+
+import com.zy.yygh.model.base.BaseMongoEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
